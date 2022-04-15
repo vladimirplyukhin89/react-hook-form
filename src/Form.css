@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  height: 100vh;
+  background-color: #346679;
+}
+
+button[type='button'] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: #FFF;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+pre {
+  color: #FFF;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+eslint-disable-next-line .wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #349958;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.error {
+  color: #334401
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
